@@ -15,9 +15,7 @@ void treefilled(p_node arbre, int T[9], int height);
 
 void allouerenfants(int i, int height,t_node* arbre,int T[9]);
 
-int* newlist( int i, int j,int L[9]);
 void printTree(p_node node, int level);
-
+int* listmouv(int L[9],int i,int height);
 
 #endif //UNTITLED12_TREE_H
-
