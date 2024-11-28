@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include "map.h"
+#include "map.c"
 
 int main() {
     srand(time(NULL));
